@@ -1,0 +1,107 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1200px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 50px;
+}
+
+.card {
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  background-image: url(https://cdn.diffords.com/contrib/stock-images/2019/11/5dd7d339daba5.jpg);
+  background-size: 300px 300px;
+  border-radius: 10px;
+}
+
+.link {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.recipe-card {
+  text-align: center;
+  color: white;
+}
+
+.show-card {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+#cocktail {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.recipe-card {
+  padding: 30px;
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+li {
+  color: darkgrey;
+}
+
+.btn-secondary {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+// body, html {
+//   height: 100%;
+// }
+
+// .bg {
+//   background-image: url("https://images.unsplash.com/photo-1516797045820-6edca89b2830?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+//   height: 100%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }

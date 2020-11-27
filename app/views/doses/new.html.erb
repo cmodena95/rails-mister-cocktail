@@ -1,0 +1,16 @@
+
+<div class="container">
+  <body style="background-color:black;">
+
+  <h1>Add a dose</h1>
+
+    <div class="form">
+      <%= simple_form_for [@cocktail, @dose] do |f| %>
+        <%= f.input :description %>
+        <%= f.association :ingredient %>
+        <div class="btn btn-secondary">
+        <%= f.button :submit %>
+      </div>
+      <% end %>
+  </div>
+</div>
